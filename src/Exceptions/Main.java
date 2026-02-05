@@ -1,4 +1,4 @@
-package ExrtaToopic;
+package Exceptions;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -11,16 +11,16 @@ public class Main {
         int[] arr = {22,43,6,5};
         try {
             System.out.println(10 / arr[num]);
-        }catch (ArrayIndexOutOfBoundsException e){
+        }catch (ArrayIndexOutOfBoundsException |ArithmeticException|InputMismatchException e){
             System.out.println("Exection Occurred");
             e.printStackTrace();
 
-        }catch (ArithmeticException e){
+        /*}catch (ArithmeticException e){
             System.out.println("Exection Occurred ");
             e.printStackTrace();
         }catch (InputMismatchException e){
             System.out.println("Exection Occurred");
-            e.printStackTrace();
+            e.printStackTrace();*/
         }catch (Exception e){                // :---Always put the default Exception block at the end.---: //
             System.out.println("Exection Occurred");
             e.printStackTrace();
