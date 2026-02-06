@@ -1,4 +1,4 @@
-package ClassWeeklyTest.opps;
+package JavaTest.opps;
 
     public class CredicardPayment extends Payment  {
         public CredicardPayment(long amount) {

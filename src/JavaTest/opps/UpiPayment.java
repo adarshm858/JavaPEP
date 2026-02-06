@@ -1,4 +1,4 @@
-package ClassWeeklyTest.opps;
+package JavaTest.opps;
     public class UpiPayment extends Payment {
         public UpiPayment(long amount) {
             super(amount);

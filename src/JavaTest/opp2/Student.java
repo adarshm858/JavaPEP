@@ -1,4 +1,4 @@
-package ClassWeeklyTest.opp2;
+package JavaTest.opp2;
 
 public class Student {
 

@@ -1,4 +1,4 @@
-package ClassWeeklyTest.DSA;
+package JavaTest.DSA;
 import java.util.Scanner;
 public class SecondLargestElement {
     public static void main(String[] args) {

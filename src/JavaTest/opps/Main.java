@@ -1,6 +1,6 @@
-package ClassWeeklyTest.opps;
-import java.util.Arrays;
-    public class Main {
+package JavaTest.opps;
+
+public class Main {
         public static void main(String[] args) {
             // Create objects
             CredicardPayment c1 = new CredicardPayment(567);

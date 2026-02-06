@@ -1,14 +1,14 @@
-package ClassWeeklyTest.opp2;
+package JavaTest.opp2;
 
 
-import static ClassWeeklyTest.opp2.Student.MAX_MARKS;
-import static ClassWeeklyTest.opp2.Student.collegeName;
+import static JavaTest.opp2.Student.MAX_MARKS;
+import static JavaTest.opp2.Student.collegeName;
 
 public class Main {
     public static class PercentageCalculation {
         public static void main(String[] args) {
-            ClassWeeklyTest.opp2.Student s1 = new ClassWeeklyTest.opp2.Student("Abhishek", 98);
-            ClassWeeklyTest.opp2.Student s2 = new ClassWeeklyTest.opp2.Student("Vibha", 65);
+            JavaTest.opp2.Student s1 = new JavaTest.opp2.Student("Abhishek", 98);
+            JavaTest.opp2.Student s2 = new JavaTest.opp2.Student("Vibha", 65);
             s1.printPercentage();
             s2.printPercentage();
             System.out.println(s1.info());

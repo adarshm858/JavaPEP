@@ -1,4 +1,4 @@
-package ClassWeeklyTest.opps;
+package JavaTest.opps;
 
  abstract  public class Payment {
 
