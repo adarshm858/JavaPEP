@@ -25,7 +25,7 @@ public class Student {
 
     public void printPercentage() {
             double percentage = (marksObtained / MAX_MARKS) * 100;
-        System.out.println(name+""+percentage);
+        System.out.println(name + "Percentage : "+ percentage + "%");
         }
 
 
