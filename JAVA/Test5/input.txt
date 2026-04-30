@@ -1,0 +1,4 @@
+D101,Standard,John,12.5
+D102,Express,Alice,10.0
+D103,Fragile,Bob,8.0
+D104,Express,Sam,15.0
